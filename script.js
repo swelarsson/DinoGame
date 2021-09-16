@@ -1,9 +1,9 @@
-const dino = document.getElementById("dino");
+const dino = document.getElementById("dino");  
 const rock = document.getElementById("rock");
 const score = document.getElementById("score");
 
 function jump() {
-  dino.classList.add("jump-animation");
+  dino.classList.add("jump-animation");  // don´t forget if you don´t use the add function you will not get connect with the Jump-animation.
   setTimeout(() =>
     dino.classList.remove("jump-animation"), 500);
 }
