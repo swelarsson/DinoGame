@@ -5,7 +5,7 @@
   height: 300px;
   border: 2px solid black;
   margin: auto;
-  background-image: url("https://thumbs.dreamstime.com/b/landscape-game-background-game-black-white-background-seamless-cartoon-landscape-89891545.jpg");
+  background-image: url("https://thumbs.dreamstime.com/b/landscape-game-background-game-black-white-background-seamless-cartoon-landscape-89891545.jpg"); // you can use any backround you like, a local file or as me a linked adress.
   background-size: cover;
 }
 
@@ -23,7 +23,7 @@
   height: 50px;
   position: relative;
   top: 175px;
-  left: 550px;
+  left: 550px;  // so the rock goes from right to left. 
   background-image: url("http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/da268f06e621b21.png");
   background-size: cover;
   animation: rock 1.33s infinite;
